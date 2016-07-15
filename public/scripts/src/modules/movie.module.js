@@ -1,0 +1,1 @@
+var movieModule = angular.module('movieModule', []);

@@ -1,0 +1,51 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    color: $body-copy;
+}
+
+.content {
+	width:80%;
+	margin: 0 auto;
+	padding:20px;
+
+	.result {
+		.movie-poster{
+				display: block;
+				float:right;
+				width: 40%;
+				padding:50px;
+		}
+		.rating {
+			padding:50px;
+		}
+
+		.cast {
+			clear: both;
+			text-align:center;
+
+		}
+		
+	}
+
+
+
+
+	.input-field {
+		width:100%;
+		display: block;
+		padding:10px;
+		font-size: 26px;
+	}
+
+
+
+}
+
+ul {
+	list-style-type: none;
+}
+

@@ -1,0 +1,15 @@
+<div>
+
+	<input type="text" name="movie" class="input-field" ng-model="movieName" placeholder="enter movie" ng-change="onType()">
+
+	<div class="result">
+		<img class="movie-poster" ng-src="{{getRelImage()}}">
+
+		<h1 ng-if=!data.imdbRating class="rating">Welcome</h1>
+		<h1  ng-if=data.imdbRating class="rating">{{data.imdbRating}}</h1>
+		<ul class="cast" ng-show="data.cast">
+			<li ng-repeat="person in data.cast">{{person}}</li>
+		</ul>
+	</div>
+
+</div>

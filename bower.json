@@ -1,0 +1,8 @@
+{
+  "name": "albums",
+  "version": "1.0.0",
+  "dependencies": {
+    "angular": "~1.4.8",
+    "underscore": "^1.8.3"
+  }
+}
